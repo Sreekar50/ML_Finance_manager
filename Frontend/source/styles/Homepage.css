@@ -1,0 +1,153 @@
+.homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    background: linear-gradient(to right, #9ec1e4, #7aade7); 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+}
+
+form {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+input[type="file"],
+input[type="text"] {
+    display: block;
+    width: 90%;
+    margin: 15px auto;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+button[type="submit"] {
+    background-color: #0077cc;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #005fa3;
+}
+
+.error-message {
+    color: #d9534f;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.section {
+    background: #ffffff;
+    padding: 30px 20px;
+    margin: 20px auto;
+    border-radius: 0; 
+    box-shadow: none; 
+    width: 100vw; 
+    box-sizing: border-box;
+}
+
+
+h1, h2, h3 {
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin: auto;
+}
+
+.chart-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+table th {
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: 600;
+}
+
+@media (max-width: 600px) {
+    .homepage {
+        padding: 20px 10px;
+    }
+
+    form {
+        padding: 20px;
+    }
+
+    .section {
+        padding: 20px;
+    }
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1; /* Pushes footer down */
+    padding: 20px;
+    box-sizing: border-box;
+    padding-bottom: 60px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #f8f9fa;
+    width: 100%;
+    padding: 10px 20px;
+    text-align: center;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.results-header {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.results-header h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+}
+
