@@ -55,40 +55,6 @@ statsmodels
 openpyxl
 ```
 
-## 🚀 Installation
-
-### 1. Clone the Repository
-```bash
-git clone <repository-url>
-cd finance-manager
-```
-
-### 2. Backend Setup
-```bash
-# Install Node.js dependencies
-npm install
-
-# Install Python dependencies
-pip install pandas numpy matplotlib scikit-learn statsmodels openpyxl
-```
-
-### 3. Frontend Setup
-```bash
-cd client
-npm install
-```
-
-### 4. Environment Configuration
-Create a `.env` file in the root directory:
-```env
-PORT=8080
-MONGODB_URI=mongodb://localhost:27017/finance_manager
-NODE_ENV=development
-```
-
-### 5. Database Setup
-Ensure MongoDB is running on your system. The application will automatically create the necessary collections.
-
 ## 🎮 Usage
 
 ### 1. Start the Backend Server
