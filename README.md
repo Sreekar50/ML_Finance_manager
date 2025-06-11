@@ -108,24 +108,6 @@ The system uses a sophisticated model selection process:
 - **Monthly Predictions**: Forecasts next 3 months of expenses by category
 - **Trend Analysis**: Captures seasonal and trend patterns in spending
 
-## 🗂️ Project Structure
-
-```
-finance-manager/
-├── client/                     # React frontend
-│   ├── src/
-│   │   ├── components/         # Reusable components
-│   │   ├── pages/             # Page components
-│   │   └── styles/            # CSS stylesheets
-├── config/                    # Database configuration
-├── controllers/               # Route controllers
-├── models/                    # Database models
-├── routes/                    # API routes
-├── static/                    # Generated visualizations
-├── uploads/                   # Temporary file storage
-├── transactions.py            # ML processing script
-└── server.js                 # Main server file
-```
 
 ## 🔌 API Endpoints
 
@@ -162,31 +144,6 @@ The system automatically parses merchant names and transaction amounts from this
 - **Automatic Cleanup**: Clears old visualizations before generating new ones
 - **Real-time Updates**: Fresh visualizations for each analysis
 
-
-
-## 🔧 Troubleshooting
-
-### Common Issues
-
-#### Python Script Execution Errors
-- Ensure Python 3.7+ is installed and accessible via `python` command
-- Verify all required Python packages are installed
-- Check file permissions for the `transactions.py` script
-
-#### File Upload Issues
-- Ensure uploads directory has write permissions
-- Verify Excel file format is .xls or .xlsx
-- Check file size limitations (default: 50MB)
-
-#### Database Connection
-- Verify MongoDB is running
-- Check connection string in `.env` file
-- Ensure database user has appropriate permissions
-
-#### Visualization Display
-- Clear browser cache if images don't update
-- Check static directory permissions
-- Verify image paths in API responses
 
 ## 🎯 Future Enhancements
 
